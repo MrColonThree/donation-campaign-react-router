@@ -5,8 +5,8 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex justify-between items-center max-w-screen-xl mx-auto p-5 z-1000">
-      <img className="h-16" src="Logo.png" alt="" />
+    <nav className="flex justify-between items-center max-w-screen-xl mx-auto p-5">
+      <img className="h-16" src="/Logo.png" alt="" />
       <div>
         <div
           className="md:hidden text-2xl hover:text-[#FF444A]"

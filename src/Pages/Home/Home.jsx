@@ -1,10 +1,13 @@
 import AllCategories from "../../Components/AllCategories/AllCategories";
 import Banner from "../../Components/Banner/Banner";
 
+
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
+      <Banner>
+        
+      </Banner>
       <AllCategories></AllCategories>
     </div>
   );
