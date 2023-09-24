@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "background_color": "#FF5733",
+    "text_color": "#FFFFFF",
+    "title": "Helping Homeless Children",
+    "description": "Your donation will provide shelter, food, and education to homeless children in need.",
+    "category": "Children's Welfare",
+    "image": "https://example.com/donation1.jpg"
+  },
+  {
+    "id": "2",
+    "background_color": "#42A5F5",
+    "text_color": "#000000",
+    "title": "Clean Water for Communities",
+    "description": "Contribute to our clean water initiative and bring safe drinking water to underserved communities.",
+    "category": "Community Development",
+    "image": "https://example.com/donation2.jpg"
+  },
+  {
+    "id": "3",
+    "background_color": "#4CAF50",
+    "text_color": "#FFFFFF",
+    "title": "Animal Welfare Support",
+    "description": "Support our efforts to rescue and care for animals in distress. Every donation makes a difference.",
+    "category": "Animal Welfare",
+    "image": "https://example.com/donation3.jpg"
+  },
+  {
+    "id": "4",
+    "background_color": "#FFC107",
+    "text_color": "#000000",
+    "title": "Fighting Hunger Together",
+    "description": "Join us in the fight against hunger by providing meals to families facing food insecurity.",
+    "category": "Food Security",
+    "image": "https://example.com/donation4.jpg"
+  },
+  {
+    "id": "5",
+    "background_color": "#F44336",
+    "text_color": "#FFFFFF",
+    "title": "Education for Underprivileged Youth",
+    "description": "Help us empower underprivileged youth with quality education and brighter futures.",
+    "category": "Children's Welfare",
+    "image": "https://example.com/donation5.jpg"
+  },
+  {
+    "id": "6",
+    "background_color": "#1976D2",
+    "text_color": "#FFFFFF",
+    "title": "Cancer Research Fund",
+    "description": "Support groundbreaking cancer research to find better treatments and ultimately, a cure.",
+    "category": "Medical Research",
+    "image": "https://example.com/donation6.jpg"
+  },
+  {
+    "id": "7",
+    "background_color": "#8BC34A",
+    "text_color": "#000000",
+    "title": "Disaster Relief Fund",
+    "description": "Provide immediate relief to communities affected by natural disasters and emergencies.",
+    "category": "Disaster Relief",
+    "image": "https://example.com/donation7.jpg"
+  },
+  {
+    "id": "8",
+    "background_color": "#FF9800",
+    "text_color": "#000000",
+    "title": "Arts and Culture Preservation",
+    "description": "Preserve and promote our cultural heritage by supporting arts and cultural programs.",
+    "category": "Arts and Culture",
+    "image": "https://example.com/donation8.jpg"
+  },
+  {
+    "id": "9",
+    "background_color": "#673AB7",
+    "text_color": "#FFFFFF",
+    "title": "Environmental Conservation",
+    "description": "Join the efforts to protect our planet and preserve its natural beauty for future generations.",
+    "category": "Environmental Conservation",
+    "image": "https://example.com/donation9.jpg"
+  },
+  {
+    "id": "10",
+    "background_color": "#E91E63",
+    "text_color": "#FFFFFF",
+    "title": "Supporting Mental Health",
+    "description": "Help break the stigma surrounding mental health and support those in need of assistance.",
+    "category": "Mental Health",
+    "image": "https://example.com/donation10.jpg"
+  },
+  {
+    "id": "11",
+    "background_color": "#009688",
+    "text_color": "#FFFFFF",
+    "title": "Empowering Women",
+    "description": "Empower women and girls through education, healthcare, and economic opportunities.",
+    "category": "Women's Empowerment",
+    "image": "https://example.com/donation11.jpg"
+  },
+  {
+    "id": "12",
+    "background_color": "#FF5722",
+    "text_color": "#FFFFFF",
+    "title": "Youth Sports Development",
+    "description": "Promote physical fitness and teamwork among youth by supporting youth sports programs.",
+    "category": "Youth Development",
+    "image": "https://example.com/donation12.jpg"
+  }
+]
