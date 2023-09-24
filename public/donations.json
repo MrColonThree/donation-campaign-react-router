@@ -1,110 +1,110 @@
 [
   {
     "id": "1",
-    "background_color": "#FF5733",
-    "text_color": "#FFFFFF",
-    "title": "Helping Homeless Children",
-    "description": "Your donation will provide shelter, food, and education to homeless children in need.",
-    "category": "Children's Welfare",
-    "image": "https://example.com/donation1.jpg"
+    "background_color": "#FF444A",
+    "text_color": "#FF444A",
+    "title": "Supporting School Supplies",
+    "description": "Help students get the supplies they need to succeed in school. Your donation will provide essential learning materials like books, notebooks, and stationery to underprivileged students, ensuring they have the tools for a brighter future.",
+    "category": "Education",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "2",
-    "background_color": "#42A5F5",
-    "text_color": "#000000",
-    "title": "Clean Water for Communities",
-    "description": "Contribute to our clean water initiative and bring safe drinking water to underserved communities.",
-    "category": "Community Development",
-    "image": "https://example.com/donation2.jpg"
+    "background_color": "#0052FF",
+    "text_color": "#0052FF",
+    "title": "Medical Research Fund",
+    "description": "Support groundbreaking medical research to find cures for diseases. Your contribution will advance scientific discovery and improve healthcare outcomes for people around the world.",
+    "category": "Health",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "3",
-    "background_color": "#4CAF50",
-    "text_color": "#FFFFFF",
-    "title": "Animal Welfare Support",
-    "description": "Support our efforts to rescue and care for animals in distress. Every donation makes a difference.",
-    "category": "Animal Welfare",
-    "image": "https://example.com/donation3.jpg"
+    "background_color": "#79C23F",
+    "text_color": "#79C23F",
+    "title": "Clothing Drive",
+    "description": "Donate warm clothing to those in need during the cold winter months. Your generosity will provide essential clothing items, such as coats, hats, and gloves, to vulnerable individuals and families.",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "4",
-    "background_color": "#FFC107",
-    "text_color": "#000000",
+    "background_color": "#ff4a12",
+    "text_color": "#ff4a12",
     "title": "Fighting Hunger Together",
-    "description": "Join us in the fight against hunger by providing meals to families facing food insecurity.",
-    "category": "Food Security",
-    "image": "https://example.com/donation4.jpg"
+    "description": "Join us in the fight against hunger by providing meals to families in need. Your donation will help supply nutritious food to those facing food insecurity and make a positive impact on their lives.",
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "5",
-    "background_color": "#F44336",
-    "text_color": "#FFFFFF",
-    "title": "Education for Underprivileged Youth",
-    "description": "Help us empower underprivileged youth with quality education and brighter futures.",
-    "category": "Children's Welfare",
-    "image": "https://example.com/donation5.jpg"
+    "background_color": "#FF444A",
+    "text_color": "#FF444A",
+    "title": "Scholarship Fund",
+    "description": "Support underprivileged students in pursuing higher education. Your contribution will fund scholarships, opening doors to higher learning and brighter futures for deserving individuals.",
+    "category": "Education",
+    "image": "https://images.unsplash.com/photo-1497375638960-ca368c7231e4"
   },
   {
     "id": "6",
-    "background_color": "#1976D2",
-    "text_color": "#FFFFFF",
-    "title": "Cancer Research Fund",
-    "description": "Support groundbreaking cancer research to find better treatments and ultimately, a cure.",
-    "category": "Medical Research",
-    "image": "https://example.com/donation6.jpg"
+    "background_color": "#0052FF",
+    "text_color": "#0052FF",
+    "title": "Healthcare Access Initiative",
+    "description": "Provide access to healthcare services for underserved communities. Your support will ensure that vulnerable populations receive the medical care they deserve, improving overall well-being.",
+    "category": "Health",
+    "image": "https://images.unsplash.com/photo-1652148439208-3e73641d0725"
   },
   {
     "id": "7",
-    "background_color": "#8BC34A",
-    "text_color": "#000000",
-    "title": "Disaster Relief Fund",
-    "description": "Provide immediate relief to communities affected by natural disasters and emergencies.",
-    "category": "Disaster Relief",
-    "image": "https://example.com/donation7.jpg"
+    "background_color": "#79C23F",
+    "text_color": "#79C23F",
+    "title": "Warm Winter Coats",
+    "description": "Donate winter coats to keep people warm during the cold season. Your contribution will provide much-needed warmth and comfort to individuals facing harsh weather conditions.",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "8",
-    "background_color": "#FF9800",
-    "text_color": "#000000",
-    "title": "Arts and Culture Preservation",
-    "description": "Preserve and promote our cultural heritage by supporting arts and cultural programs.",
-    "category": "Arts and Culture",
-    "image": "https://example.com/donation8.jpg"
+    "background_color": "#ff4a12",
+    "text_color": "#ff4a12",
+    "title": "Food Pantry Support",
+    "description": "Contribute to local food pantries to help those in need. Your donation will stock the shelves of food pantries, ensuring that hungry families have access to nutritious meals.",
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1599059813005-11265ba4b4ce"
   },
   {
     "id": "9",
-    "background_color": "#673AB7",
-    "text_color": "#FFFFFF",
-    "title": "Environmental Conservation",
-    "description": "Join the efforts to protect our planet and preserve its natural beauty for future generations.",
-    "category": "Environmental Conservation",
-    "image": "https://example.com/donation9.jpg"
+    "background_color": "#FF444A",
+    "text_color": "#FF444A",
+    "title": "Educational Technology",
+    "description": "Provide technology tools for schools to enhance education. Your support will equip classrooms with computers, tablets, and educational software, enabling interactive learning experiences.",
+    "category": "Education",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "10",
-    "background_color": "#E91E63",
-    "text_color": "#FFFFFF",
-    "title": "Supporting Mental Health",
-    "description": "Help break the stigma surrounding mental health and support those in need of assistance.",
-    "category": "Mental Health",
-    "image": "https://example.com/donation10.jpg"
+    "background_color": "#0052FF",
+    "text_color": "#0052FF",
+    "title": "Mental Health Awareness",
+    "description": "Raise awareness and support for mental health initiatives. Your contribution will promote mental well-being, reduce stigma, and provide resources for those in need of support.",
+    "category": "Health",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   },
   {
     "id": "11",
-    "background_color": "#009688",
-    "text_color": "#FFFFFF",
-    "title": "Empowering Women",
-    "description": "Empower women and girls through education, healthcare, and economic opportunities.",
-    "category": "Women's Empowerment",
-    "image": "https://example.com/donation11.jpg"
+    "background_color": "#79C23F",
+    "text_color": "#79C23F",
+    "title": "Clothing for the Homeless",
+    "description": "Help provide clothing for homeless individuals and families. Your donation will offer warmth, dignity, and comfort to those experiencing homelessness.",
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c"
   },
   {
     "id": "12",
-    "background_color": "#FF5722",
-    "text_color": "#FFFFFF",
-    "title": "Youth Sports Development",
-    "description": "Promote physical fitness and teamwork among youth by supporting youth sports programs.",
-    "category": "Youth Development",
-    "image": "https://example.com/donation12.jpg"
+    "background_color": "#ff4a12",
+    "text_color": "#ff4a12",
+    "title": "Food for Needy Families",
+    "description": "Donate food to families facing food insecurity in your community. Your support will make a significant difference in the lives of those struggling to put food on the table.",
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433"
   }
 ]
