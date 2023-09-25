@@ -1,9 +1,11 @@
 
 
 const Statistics = () => {
+ 
+
   return (
     <div>
-      This is Statistics
+this is statistics section
     </div>
   );
 };

@@ -1,5 +1,5 @@
 const DonatedCard = ({ donatedCard }) => {
-  const { image, title, category, background_color, text_color, price } = donatedCard;
+  const { image, title, category, background_color, text_color, price } = donatedCard || "";
   console.log(donatedCard)
   return (
     <div style={{ backgroundColor: `${background_color}20` }} className="flex flex-start rounded-md items-center my-2">

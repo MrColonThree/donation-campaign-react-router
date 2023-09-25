@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const DonationCard = ({ card }) => {
-  const { id, category, background_color, title, text_color, image } = card;
+  const { id, category, background_color, title, text_color, image } = card || "";
   const navigate = useNavigate();
   const handleClick = (e) => {
     e.preventDefault();

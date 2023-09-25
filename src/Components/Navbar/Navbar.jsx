@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex justify-between items-center max-w-screen-xl mx-auto p-5">
+    <nav className="flex justify-between items-center max-w-screen-xl mx-auto p-5 bg-transparent">
       <img className="h-16" src="/Logo.png" alt="" />
       <div>
         <div
@@ -19,7 +19,7 @@ const Navbar = () => {
           )}
         </div>
         <ul
-          className={`text-xl text-right flex flex-col md:flex-row justify-between  gap-3 md:gap-5 absolute md:static duration-1000 ${
+          className={`text-xl text-right flex flex-col md:flex-row justify-between  gap-3 md:gap-5 absolute md:static duration-1000 bg-white z-20 ${
             open
               ? "top-20 right-10 p-2 shadow-lg rounded-bl-lg"
               : "-top-32 right-10"
