@@ -19,7 +19,7 @@ const Navbar = () => {
           )}
         </div>
         <ul
-          className={`text-xl text-right flex flex-col md:flex-row justify-between  gap-3 md:gap-5 absolute md:static duration-1000 bg-white z-20 ${
+          className={`text-xl text-right flex flex-col md:flex-row justify-between  gap-3 md:gap-5 absolute md:static duration-1000 bg-white md:bg-none z-20 ${
             open
               ? "top-20 right-10 p-2 shadow-lg rounded-bl-lg"
               : "-top-32 right-10"

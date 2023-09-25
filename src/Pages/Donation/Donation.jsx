@@ -19,7 +19,7 @@ const Donation = () => {
 
   return (
     <div className="py-20 max-w-screen-xl mx-auto px-5">
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 ">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 w-full md:w-3/4 lg:w-auto mx-auto">
         {seeAll
           ? donations.map((donatedCard) => (
               <DonatedCard
@@ -44,9 +44,9 @@ const Donation = () => {
         >
           <button
             onClick={() => setSeeAll(!seeAll)}
-            className="font-semibold px-3 py-1 bg-[#009444] rounded-md text-white"
+            className={`font-semibold px-3 lg:px-4 py-1 lg:py-2 bg-[#009444] rounded-md text-white ${seeAll? "hidden" : ""}`}
           >
-            {seeAll ? "See Less" : "See All"}
+            See All
           </button>
         </div>
       }

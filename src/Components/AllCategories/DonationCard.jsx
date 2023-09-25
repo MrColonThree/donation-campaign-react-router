@@ -9,11 +9,11 @@ const DonationCard = ({ card }) => {
     navigate(`/details/${id}`);
   };
   return (
-    <div onClick={handleClick} className="cursor-pointer">
+    <div onClick={handleClick} className="cursor-pointer flex flex-col">
       <img className="rounded-t-xl h-48 w-full" src={image} alt="" />
       <div
         style={{ backgroundColor: `${background_color}20` }}
-        className="p-4 rounded-b-xl"
+        className="p-4 rounded-b-xl flex-grow"
       >
         <div>
           <button
@@ -28,7 +28,7 @@ const DonationCard = ({ card }) => {
         </div>
         <h2
           style={{ color: text_color }}
-          className="text-xl font-semibold mt-2 h-14"
+          className="text-xl font-semibold mt-2"
         >
           {title}
         </h2>
