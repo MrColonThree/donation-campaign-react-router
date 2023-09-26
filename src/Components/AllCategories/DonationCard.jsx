@@ -10,7 +10,8 @@ const DonationCard = ({ card }) => {
   };
   return (
     <div onClick={handleClick} className="cursor-pointer flex flex-col">
-      <img className="rounded-t-xl h-48 w-full" src={image} alt="" />
+      <img className="rounded-t-xl h-56
+       md:h-48 w-full" src={image} alt="" />
       <div
         style={{ backgroundColor: `${background_color}20` }}
         className="p-4 rounded-b-xl flex-grow"

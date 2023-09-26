@@ -18,7 +18,9 @@ const Donation = () => {
   }, []);
 
   return (
-    <div className="py-20 max-w-screen-xl mx-auto px-5">
+    <div className="py-20 max-w-screen-xl mx-auto px-5">{
+      donations.length === 0 && <div className="m-10 md:m-20 text-2xl md:text-3xl text-center">There are no recent donations to display. <br /> Check back later to see your donation history as you contribute to our mission.</div>
+    }
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 w-full md:w-3/4 lg:w-auto mx-auto">
         {seeAll
           ? donations.map((donatedCard) => (

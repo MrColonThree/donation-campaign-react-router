@@ -1,17 +1,11 @@
 import { useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-const Navbar = () => {
+const NavBarForHomePage = () => {
   const [open, setOpen] = useState(false);
-  const location = useLocation();
-  const isHomepage = location.pathname === "/";
   return (
-    <nav
-      className={`flex justify-between items-center max-w-screen-xl mx-auto p-5 ${
-        isHomepage && "hidden"
-      }`}
-    >
+    <nav className="flex justify-between items-center max-w-screen-xl mx-auto p-5 bg-transparent">
       <img className="h-16" src="/Logo.png" alt="" />
       <div>
         <div
@@ -79,4 +73,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBarForHomePage;

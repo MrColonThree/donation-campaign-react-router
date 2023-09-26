@@ -30,7 +30,7 @@ const Statistics = () => {
   };
 
   return (
-    <div className="max-w-screen-xl mx-auto flex justify-center items-center my-10">
+    <div className="max-w-screen-xl mx-auto flex justify-center items-center my-10 md:my-28">
       <div className="flex flex-col items-center">
         <PieChart
           series={[

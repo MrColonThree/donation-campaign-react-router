@@ -2,6 +2,7 @@ import Swal from "sweetalert2";
 import AllCategories from "../../Components/AllCategories/AllCategories";
 import Banner from "../../Components/Banner/Banner";
 import { useState, useEffect } from "react";
+import NavBarForHomePage from "../../Components/Navbar/NavBarForHomePage";
 
 const Home = () => {
   const [categories, setCategories] = useState([]);
@@ -17,7 +18,7 @@ const Home = () => {
   }, []);
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const currentFilteredCategories = categories.filter((category) =>
       category.category.toLowerCase().includes(search.toLowerCase())
     );
@@ -30,11 +31,14 @@ const Home = () => {
         text: "No category found!",
       });
     }
-    
+
     setFilteredCategories(currentFilteredCategories);
   };
   return (
-    <div>
+    <div className="relative">
+      <div className="absolute z-20 w-full">
+        <NavBarForHomePage></NavBarForHomePage>
+      </div>
       <Banner
         handleSubmit={handleSubmit}
         setSearch={setSearch}
