@@ -22,16 +22,15 @@ const Home = () => {
     const currentFilteredCategories = categories.filter((category) =>
       category.category.toLowerCase().includes(search.toLowerCase())
     );
-    if (currentFilteredCategories.length === 0) {
-      setFilteredCategories([]);
+    if (currentFilteredCategories.length === 0 || search === "") {
       setSearch("");
       return Swal.fire({
         icon: "error",
         title: "Oops...",
-        text: "No category found!",
+        text: "No category found! Please type a valid category name",
       });
     }
-
+    setSearch("");
     setFilteredCategories(currentFilteredCategories);
   };
   return (

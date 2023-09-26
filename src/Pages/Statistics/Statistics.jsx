@@ -1,9 +1,10 @@
-import { Tooltip } from "@mui/material";
 import { getStoredDonationData } from "../../utility/localstorage";
+import { useLoaderData } from "react-router-dom";
 import { PieChart, pieArcLabelClasses } from "@mui/x-charts/PieChart";
 const Statistics = () => {
   const yourDonation = getStoredDonationData().length;
-  const yourDonationInPercentage = (yourDonation / 12) * 100;
+  const allDonationSector = useLoaderData().length;
+  const yourDonationInPercentage = (yourDonation / allDonationSector) * 100;
 
   const totalDonation = 100 - yourDonationInPercentage;
 
@@ -18,9 +19,9 @@ const Statistics = () => {
 
   const sizing = {
     margin: { right: 3, left: 3 },
-    width: 400,
-    height: 400,
-    legend: { hidden: true },
+    width: 370,
+    height: 370,
+    legend: { hidden: false },
   };
   const TOTAL = data.map((item) => item.value).reduce((a, b) => a + b, 0);
 
@@ -35,7 +36,7 @@ const Statistics = () => {
         <PieChart
           series={[
             {
-              outerRadius: 200,
+              outerRadius: 170,
               data,
               arcLabel: getArcLabel,
             },
@@ -43,13 +44,13 @@ const Statistics = () => {
           sx={{
             [`& .${pieArcLabelClasses.root}`]: {
               fill: "white",
-              fontSize: 30,
+              fontSize: 25,
               fontWeight: 700,
             },
           }}
           {...sizing}
         />
-        <Tooltip />
+
         <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 mt-10">
           <div className="flex items-center justify-center gap-5">
             <h1 className="text-lg">Your Donation</h1>

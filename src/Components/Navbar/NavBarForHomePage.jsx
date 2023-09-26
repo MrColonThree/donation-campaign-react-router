@@ -33,7 +33,7 @@ const NavBarForHomePage = () => {
                   ? "text-[#FF444A] underline"
                   : isPending
                   ? "pending"
-                  : ""
+                  : "hover:text-[#FF444A]"
               }
             >
               Home
@@ -47,7 +47,7 @@ const NavBarForHomePage = () => {
                   ? "text-[#FF444A] underline"
                   : isPending
                   ? "pending"
-                  : ""
+                  : "hover:text-[#FF444A]"
               }
             >
               Donation
@@ -61,7 +61,7 @@ const NavBarForHomePage = () => {
                   ? "text-[#FF444A] underline"
                   : isPending
                   ? "pending"
-                  : ""
+                  : "hover:text-[#FF444A]"
               }
             >
               Statistics

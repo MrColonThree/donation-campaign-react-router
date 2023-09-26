@@ -2,7 +2,7 @@
 const Banner = ({ handleSubmit, setSearch, search }) => {
  
   return (
-    <div className="bg-banner-bg bg-cover object-none bg-center  bg-no-repeat h-[80vh]  relative  flex justify-center items-center">
+    <div className="bg-banner-bg bg-cover object-none bg-center  bg-no-repeat h-[750px]  relative  flex justify-center items-center">
       <div className="flex flex-col items-center gap-10">
       <div className="absolute inset-0 bg-white bg-opacity-90"></div>
         <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold z-10 px-5">
